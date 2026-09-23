@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona Total | Multimedia, Servicios y Productos Digitales</title>
+    <meta name="description" content="Descubre Zona Total Multimedia, servicios y productos digitales. Elige tu suscripción y accede a la experiencia Zona Total que mejor se adapta a ti.">
+    <!-- Importar fuente Cormorant Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <!-- HERO PRINCIPAL -->
+        <section class="hero" aria-label="Bienvenida a Zona Total">
+            <div class="hero-container">
+                
+                <!-- Columna Izquierda: Logo Grande 3D -->
+                <div class="hero-logo-column">
+                    <div class="logo-3d">
+                        <div class="logo-front">
+                            <img src="assets/logo-zona-total.png" alt="Zona Total Logo" class="logo-hero">
+                        </div>
+                        <div class="logo-back">
+                            <img src="assets/logo-zona-total.png" alt="Zona Total Logo Reverso" class="logo-hero">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna Derecha: Contenido -->
+                <div class="hero-content-column">
+                    <!-- AHORA ES EL H1 PRINCIPAL -->
+                    <h1 class="hero-welcome">BIENVENIDO A ZONA TOTAL</h1>
+                    <!-- Frase secundaria (h2 semántico pero visualmente secundario) -->
+                    <h2 class="main-title">Donde el entretenimiento se encuentra con las oportunidades.</h2>
+                    <p class="hero-subtitle">Entretenimiento, servicios digitales y productos para comprar o revender. Elige la experiencia Zona Total que mejor se adapte a ti.</p>
+                    <a href="#opciones" class="btn btn-gold scroll-btn">ELIGE TU OPCIÓN</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE OPCIONES -->
+        <section id="opciones" class="options-section" aria-label="Opciones de suscripción">
+            <h2 class="section-title">Selecciona tu modalidad</h2>
+            <p class="section-description">Encuentra el plan que se adapta a tus necesidades.</p>
+
+            <div class="cards-grid">
+
+                <!-- OPCIÓN 1: MULTIMEDIA -->
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-film"></i></div>
+                    <h2>ZONA TOTAL MULTIMEDIA</h2>
+                    <p>Centro multimedia privado de Zona Total para entretenimiento y contenido de consumo personal.</p>
+                    <ul class="card-features">
+                        <li><i class="fas fa-check"></i> Contenido para consumo personal</li>
+                        <li><i class="fas fa-check"></i> Acceso privado</li>
+                        <li><i class="fas fa-check"></i> Suscripción independiente</li>
+                    </ul>
+                    <div class="card-buttons">
+                        <a href="https://merencioreyna-sudo.github.io/zona-total-peliculas/" class="btn btn-gold">Obtener suscripción</a>
+                        <button class="btn btn-outline details-btn" 
+                                data-target="detalles-multimedia" 
+                                aria-expanded="false" 
+                                aria-controls="detalles-multimedia">
+                            Ver detalles <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div id="detalles-multimedia" class="details-content">
+                        <h3>¿Cómo funciona?</h3>
+                        <p>Zona Total Multimedia es nuestro centro multimedia privado para consumo personal.</p>
+                        <div class="steps-guide">
+                            <div class="step"><span class="step-num">1</span> Pulsa "Obtener suscripción".</div>
+                            <div class="step"><span class="step-num">2</span> Serás dirigido a la página oficial de Zona Total.</div>
+                            <div class="step"><span class="step-num">3</span> En la pantalla de acceso, pulsa "REGISTRARSE" donde dice: "¿No tienes cuenta? REGISTRARSE".</div>
+                            <div class="step"><span class="step-num">4</span> Se abrirá el formulario de registro.</div>
+                            <div class="step"><span class="step-num">5</span> Crea tu usuario y contraseña.</div>
+                            <div class="step"><span class="step-num">6</span> Introduce tu correo electrónico y teléfono.</div>
+                            <div class="step"><span class="step-num">7</span> Sube tu comprobante de pago.</div>
+                            <div class="step"><span class="step-num">8</span> Pulsa "Crear cuenta".</div>
+                            <div class="step"><span class="step-num">9</span> Tu cuenta será activada después de verificar el pago.</div>
+                            <div class="step"><span class="step-num">10</span> Una vez activada, podrás iniciar sesión en Zona Total utilizando el usuario y contraseña que creaste.</div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- OPCIÓN 2: SERVICIOS -->
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-cogs"></i></div>
+                    <h2>ZONA TOTAL SERVICIOS</h2>
+                    <p>Área de productos y servicios digitales de Zona Total, con recursos para compra y opciones de reventa.</p>
+                    <ul class="card-features">
+                        <li><i class="fas fa-check"></i> Productos digitales</li>
+                        <li><i class="fas fa-check"></i> Recursos y herramientas</li>
+                        <li><i class="fas fa-check"></i> Opciones de reventa</li>
+                    </ul>
+                    <div class="card-buttons">
+                        <a href="https://merencioreyna-sudo.github.io/zona-total-servicios/" class="btn btn-gold">Obtener Servicios</a>
+                        <button class="btn btn-outline details-btn" 
+                                data-target="detalles-servicios" 
+                                aria-expanded="false" 
+                                aria-controls="detalles-servicios">
+                            Ver detalles <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div id="detalles-servicios" class="details-content">
+                        <h3>¿Qué es Zona Total Servicios?</h3>
+                        <p>Es el área de Zona Total destinada a productos y recursos digitales. Permitirá adquirir productos para uso propio y acceder a opciones de reventa mediante los planes correspondientes.</p>
+                        <p><strong>Esta modalidad funciona de manera independiente a Zona Total Multimedia.</strong></p>
+                        <p>No necesitas contratar Multimedia si solamente estás interesado en Servicios.</p>
+                    </div>
+                </article>
+
+                <!-- OPCIÓN 3: PREMIUM (Destacada) -->
+                <article class="card card-featured glass">
+                    <div class="badge">EXPERIENCIA COMPLETA</div>
+                    <div class="card-icon gold-icon"><i class="fas fa-crown"></i></div>
+                    <h2>ZONA TOTAL PREMIUM</h2>
+                    <p>Experiencia completa que combina Zona Total Multimedia y Zona Total Servicios.</p>
+                    <ul class="card-features">
+                        <li><i class="fas fa-check"></i> Zona Total Multimedia</li>
+                        <li><i class="fas fa-check"></i> Zona Total Servicios</li>
+                        <li><i class="fas fa-check"></i> Experiencia completa</li>
+                    </ul>
+                    <div class="card-buttons">
+                        <a href="#" class="btn btn-gold">Obtener Premium</a>
+                        <button class="btn btn-outline details-btn" 
+                                data-target="detalles-premium" 
+                                aria-expanded="false" 
+                                aria-controls="detalles-premium">
+                            Ver detalles <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div id="detalles-premium" class="details-content">
+                        <h3>¿Qué incluye Zona Total Premium?</h3>
+                        <ul class="check-list">
+                            <li><i class="fas fa-check-circle"></i> Acceso a Zona Total Multimedia.</li>
+                            <li><i class="fas fa-check-circle"></i> Acceso a Zona Total Servicios.</li>
+                            <li><i class="fas fa-check-circle"></i> Una sola modalidad para quienes desean disfrutar ambas áreas.</li>
+                        </ul>
+                        
+                        <!-- BENEFICIO DESTACADO: 30% DE DESCUENTO -->
+                        <div class="discount-benefit" style="background: rgba(212, 175, 55, 0.1); border: 1px solid var(--gold); border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; text-align: center;">
+                            <p style="font-weight: 700; color: var(--gold); font-size: 1.1rem; margin-bottom: 0.3rem;">
+                                ✓ <span style="color: var(--gold);">30% DE DESCUENTO</span> al adquirir el paquete Premium.
+                            </p>
+                            <p style="color: var(--text-gray); font-size: 0.9rem;">
+                                Obtienes un 30% de descuento al contratar Zona Total Multimedia y Zona Total Servicios juntos.
+                            </p>
+                        </div>
+                        
+                        <h3>¿Cómo funciona?</h3>
+                        <p>La persona selecciona Premium y realiza el proceso de registro correspondiente. Una vez aprobado su pago:</p>
+                        <ul class="check-list">
+                            <li><i class="fas fa-check-circle"></i> Tendrá acceso a Zona Total Multimedia.</li>
+                            <li><i class="fas fa-check-circle"></i> Tendrá habilitado el apartado de Servicios.</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Zona Total. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
